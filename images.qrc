@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SumOfDistances.png</file>
+    </qresource>
+</RCC>
