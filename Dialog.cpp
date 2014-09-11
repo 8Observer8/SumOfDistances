@@ -61,5 +61,6 @@ void Dialog::on_resultButton_clicked()
     double bcDistance = std::sqrt( std::pow( x3 - x2, 2 ) + std::pow( y3 - y2, 2 ) );
     double sum = abDistance + bcDistance;
 
+    // Output
     ui->resultLineEdit->setText( QString::number( sum ) );
 }
